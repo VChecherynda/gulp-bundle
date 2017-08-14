@@ -1,0 +1,41 @@
+@media screen and (max-width: 1200px) {
+  .menu {
+    display: none;
+  }
+
+  .icon-mobile {
+  	display: block;
+  }
+
+  .menu {
+	  flex-direction: column;
+	  justify-content: flex-start;
+  }
+
+  .menu__item {
+		margin-bottom: 30px;
+		text-align: right;
+		right: 40px;
+	}
+
+  .submenu {
+   	left: auto;
+   	right: -30px;
+   	transform: translateX(0);
+  }
+
+  .submenu__item {
+	  text-align: right;
+	  padding-right: 30px;
+	}
+
+  .phone {
+  	padding-bottom: 12px;
+  }
+
+  .logo__pic {
+  	width: 120px;
+  	height: 45px;
+  }
+
+}

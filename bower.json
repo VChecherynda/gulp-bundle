@@ -1,0 +1,26 @@
+{
+  "name": "Vadym Checherinda",
+  "description": "test",
+  "main": "index.js",
+  "authors": [
+    "Vadym Checherinda"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/VadoSevich/TestLogicIt",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "magnific-popup": "^1.1.0",
+    "reset-css": "^2.2.1"
+  },
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "slick-carousel": "^1.7.1"
+  }
+}
